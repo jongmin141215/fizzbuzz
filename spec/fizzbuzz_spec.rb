@@ -10,4 +10,8 @@ describe 'fizzbuzz' do
   it 'returns the given number if number is not equal to 3' do
      expect(fizzbuzz(2)).to eq 2
    end
+
+  it 'returns "fizz" if it is multiple of 3' do
+    expect(fizzbuzz(6)).to eq 'fizz' 
+  end
 end
