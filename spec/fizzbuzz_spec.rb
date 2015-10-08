@@ -20,4 +20,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(5)).to eq 'Buzz'
   end
 
+  it 'returns "Fizzbuzz" if it is a multiple of 3 and multiple of 5' do
+    expect(fizzbuzz(15)).to eq 'Fizzbuzz'
+  end
+
 end
